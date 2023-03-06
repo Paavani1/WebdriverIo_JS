@@ -1,0 +1,260 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666332311785' stop='1666332324379'>
+    <name>createExam</name>
+    <title>createExam</title>
+    <test-cases>
+        <test-case start='1666332316567' status='broken' stop='1666332320012'>
+            <name>sendurl_reg</name>
+            <title>sendurl_reg</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='5e4b277f-78cb-48f3-9705-5412b15f2cca-attachment.mp4' type='video/mp4' size='111'/>
+            </attachments>
+            <failure>
+                <message>unknown error: net::ERR_INTERNET_DISCONNECTED
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>unknown error: unknown error: net::ERR_INTERNET_DISCONNECTED
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\webdriver\build\request\index.js:166:60)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Browser.wrapCommandFn (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.wrapCommandFn (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\SIVA KUMAR\Desktop\webdriverio\test\specs\sms.a\CreateExam.js:9:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666332320074' status='broken' stop='1666332320099'>
+            <name>login to the application</name>
+            <title>login to the application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='35170c59-dd6d-4ac6-95ab-a450e2443001-attachment.mp4' type='video/mp4' size='124'/>
+            </attachments>
+            <failure>
+                <message>connect ECONNREFUSED ::1:9515</message>
+                <stack-trace>RequestError: connect ECONNREFUSED ::1:9515
+                    at ClientRequest.&lt;anonymous> (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\got\dist\source\core\index.js:970:111)
+                    at Object.onceWrapper (node:events:628:26)
+                    at ClientRequest.emit (node:events:525:35)
+                    at ClientRequest.emit (node:domain:489:12)
+                    at origin.emit (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\@szmarczak\http-timer\dist\source\index.js:43:20)
+                    at Socket.socketErrorListener (node:_http_client:488:9)
+                    at Socket.emit (node:events:513:28)
+                    at Socket.emit (node:domain:489:12)
+                    at emitErrorNT (node:internal/streams/destroy:151:8)
+                    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+                    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1284:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666332320113' status='broken' stop='1666332320131'>
+            <name>click on exam</name>
+            <title>click on exam</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='da230678-0ce9-477a-a717-3248cbb75644-attachment.mp4' type='video/mp4' size='113'/>
+            </attachments>
+            <failure>
+                <message>connect ECONNREFUSED ::1:9515</message>
+                <stack-trace>RequestError: connect ECONNREFUSED ::1:9515
+                    at ClientRequest.&lt;anonymous> (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\got\dist\source\core\index.js:970:111)
+                    at Object.onceWrapper (node:events:628:26)
+                    at ClientRequest.emit (node:events:525:35)
+                    at ClientRequest.emit (node:domain:489:12)
+                    at origin.emit (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\@szmarczak\http-timer\dist\source\index.js:43:20)
+                    at Socket.socketErrorListener (node:_http_client:488:9)
+                    at Socket.emit (node:events:513:28)
+                    at Socket.emit (node:domain:489:12)
+                    at emitErrorNT (node:internal/streams/destroy:151:8)
+                    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+                    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1284:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666332320151' status='broken' stop='1666332320180'>
+            <name>Add Exam and validation</name>
+            <title>Add Exam and validation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='7ff10171-60bc-4c1a-a53b-e610747bd936-attachment.mp4' type='video/mp4' size='123'/>
+            </attachments>
+            <failure>
+                <message>connect ECONNREFUSED ::1:9515</message>
+                <stack-trace>RequestError: connect ECONNREFUSED ::1:9515
+                    at ClientRequest.&lt;anonymous> (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\got\dist\source\core\index.js:970:111)
+                    at Object.onceWrapper (node:events:628:26)
+                    at ClientRequest.emit (node:events:525:35)
+                    at ClientRequest.emit (node:domain:489:12)
+                    at origin.emit (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\@szmarczak\http-timer\dist\source\index.js:43:20)
+                    at Socket.socketErrorListener (node:_http_client:488:9)
+                    at Socket.emit (node:events:513:28)
+                    at Socket.emit (node:domain:489:12)
+                    at emitErrorNT (node:internal/streams/destroy:151:8)
+                    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+                    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1284:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666332320191' status='broken' stop='1666332320210'>
+            <name>scroll in to view</name>
+            <title>scroll in to view</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='23e29b27-ef41-4611-8d68-6afebfaa0852-attachment.mp4' type='video/mp4' size='117'/>
+            </attachments>
+            <failure>
+                <message>connect ECONNREFUSED ::1:9515</message>
+                <stack-trace>RequestError: connect ECONNREFUSED ::1:9515
+                    at ClientRequest.&lt;anonymous> (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\got\dist\source\core\index.js:970:111)
+                    at Object.onceWrapper (node:events:628:26)
+                    at ClientRequest.emit (node:events:525:35)
+                    at ClientRequest.emit (node:domain:489:12)
+                    at origin.emit (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\@szmarczak\http-timer\dist\source\index.js:43:20)
+                    at Socket.socketErrorListener (node:_http_client:488:9)
+                    at Socket.emit (node:events:513:28)
+                    at Socket.emit (node:domain:489:12)
+                    at emitErrorNT (node:internal/streams/destroy:151:8)
+                    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+                    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1284:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666332320231' status='broken' stop='1666332324279'>
+            <name>searching for created classroom</name>
+            <title>searching for created classroom</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='65289399-b578-499f-9311-2e111ad9624b-attachment.mp4' type='video/mp4' size='131'/>
+            </attachments>
+            <failure>
+                <message>connect ECONNREFUSED ::1:9515</message>
+                <stack-trace>RequestError: connect ECONNREFUSED ::1:9515
+                    at ClientRequest.&lt;anonymous> (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\got\dist\source\core\index.js:970:111)
+                    at Object.onceWrapper (node:events:628:26)
+                    at ClientRequest.emit (node:events:525:35)
+                    at ClientRequest.emit (node:domain:489:12)
+                    at origin.emit (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\@szmarczak\http-timer\dist\source\index.js:43:20)
+                    at Socket.socketErrorListener (node:_http_client:488:9)
+                    at Socket.emit (node:events:513:28)
+                    at Socket.emit (node:domain:489:12)
+                    at emitErrorNT (node:internal/streams/destroy:151:8)
+                    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+                    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1284:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666332324300' status='broken' stop='1666332324312'>
+            <name>deleting created classroom </name>
+            <title>deleting created classroom </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='89fb2d05-2284-44bf-8609-4077c941cf59-attachment.mp4' type='video/mp4' size='127'/>
+            </attachments>
+            <failure>
+                <message>connect ECONNREFUSED ::1:9515</message>
+                <stack-trace>RequestError: connect ECONNREFUSED ::1:9515
+                    at ClientRequest.&lt;anonymous> (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\got\dist\source\core\index.js:970:111)
+                    at Object.onceWrapper (node:events:628:26)
+                    at ClientRequest.emit (node:events:525:35)
+                    at ClientRequest.emit (node:domain:489:12)
+                    at origin.emit (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\@szmarczak\http-timer\dist\source\index.js:43:20)
+                    at Socket.socketErrorListener (node:_http_client:488:9)
+                    at Socket.emit (node:events:513:28)
+                    at Socket.emit (node:domain:489:12)
+                    at emitErrorNT (node:internal/streams/destroy:151:8)
+                    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+                    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1284:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666332324330' status='broken' stop='1666332324363'>
+            <name>logout as a admin </name>
+            <title>logout as a admin </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='435bc2aa-c461-4eb5-9b61-595eaa51cc32-attachment.mp4' type='video/mp4' size='118'/>
+            </attachments>
+            <failure>
+                <message>connect ECONNREFUSED ::1:9515</message>
+                <stack-trace>RequestError: connect ECONNREFUSED ::1:9515
+                    at ClientRequest.&lt;anonymous> (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\got\dist\source\core\index.js:970:111)
+                    at Object.onceWrapper (node:events:628:26)
+                    at ClientRequest.emit (node:events:525:35)
+                    at ClientRequest.emit (node:domain:489:12)
+                    at origin.emit (C:\Users\SIVA KUMAR\Desktop\webdriverio\node_modules\@szmarczak\http-timer\dist\source\index.js:43:20)
+                    at Socket.socketErrorListener (node:_http_client:488:9)
+                    at Socket.emit (node:events:513:28)
+                    at Socket.emit (node:domain:489:12)
+                    at emitErrorNT (node:internal/streams/destroy:151:8)
+                    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+                    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1284:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

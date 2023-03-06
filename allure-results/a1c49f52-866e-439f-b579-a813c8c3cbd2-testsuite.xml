@@ -1,0 +1,127 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666333046012' stop='1666333090771'>
+    <name>createExam</name>
+    <title>createExam</title>
+    <test-cases>
+        <test-case start='1666333046190' status='passed' stop='1666333060146'>
+            <name>sendurl_reg</name>
+            <title>sendurl_reg</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666333060156' status='passed' stop='1666333069823'>
+            <name>login to the application</name>
+            <title>login to the application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666333069827' status='passed' stop='1666333073126'>
+            <name>click on exam</name>
+            <title>click on exam</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666333073129' status='passed' stop='1666333074555'>
+            <name>Add Exam and validation</name>
+            <title>Add Exam and validation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666333074558' status='passed' stop='1666333074620'>
+            <name>scroll in to view</name>
+            <title>scroll in to view</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666333074623' status='passed' stop='1666333079071'>
+            <name>searching for created classroom</name>
+            <title>searching for created classroom</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666333079072' status='passed' stop='1666333084280'>
+            <name>deleting created classroom </name>
+            <title>deleting created classroom </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666333084282' status='passed' stop='1666333090770'>
+            <name>logout as a admin </name>
+            <title>logout as a admin </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
